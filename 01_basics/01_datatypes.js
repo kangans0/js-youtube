@@ -6,4 +6,10 @@ let isLoggedIn= false
  // number => 2 to power 53
  // bigint
  // string => ""
-//  boolean
+//  boolean => true/false
+// null => standalone value =>empty value
+//  undefined => 
+// symbol=> unique
+// object 
+console.log(typeof "kangan"); //string
+console.log(typeof null); // Object //kind of language error
