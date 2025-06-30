@@ -5,7 +5,7 @@
 
 #Solution code
 
-## project 1
+## Project 1 (Color Changer)
 
 ```javascript
 const buttons=document.querySelectorAll('.button');
@@ -36,7 +36,7 @@ buttons.forEach( (button)=>{
 
 ```
 
-## project 2
+## Project 2 (BMI calculator)
 
 ```javascript
 const form=document.querySelector('form')
@@ -64,7 +64,7 @@ form.addEventListener('submit',(e)=>{
 
 ```
 
-## project 3
+## Project 3 (Digital Clock)
 
 ```javascript
 const clock=document.getElementById('clock')
@@ -79,7 +79,7 @@ clock.innerHTML=date.toLocaleTimeString();
 },1000)
 ```
 
-## project 4
+## Project 4 (Guess Game)
 
 ```javascript
 let randomNumber=parseInt(Math.random()*100+1);
